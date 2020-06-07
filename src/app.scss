@@ -1,0 +1,30 @@
+$section-color: #4267b2;
+$secondary-section-color: #222E35;
+$section-padding: 80px 0px;
+$title-color: #16202a;
+$title-size: 30px;
+$paragraph-color: #ffffff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: $section-padding;
+    background-color: $section-color;
+}
+
+.secondary {
+    background-color: $secondary-section-color;
+}
+
+h1 {
+    color: $title-color;
+    font-size: $title-size;
+}
+
+p {
+    color: $paragraph-color;
+}
